@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animal Care App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="app-title">Animal Care App</div>
+    <button class="icon-btn" id="open-notifications">🔔</button>
+    <button class="profile-btn" id="open-profile">👤</button>
+  </div>
+
+  <!-- My Pets -->
+  <div class="section" id="section-pets">
+    <h2>My Pets</h2>
+    <div class="card-grid">
+      <div class="space-card" data-animal="perros" data-count="0">
+        <div class="image-placeholder">🐶</div>
+        <div class="space-header">Perros</div>
+        <div class="space-sub">0 mascotas</div>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="space-card" data-animal="gallinas" data-count="0">
+        <div class="image-placeholder">🐔</div>
+        <div class="space-header">Gallinas</div>
+        <div class="space-sub">0 mascotas</div>
+        <button class="add-btn">Add</button>
+      </div>
+      <div class="space-card" data-animal="conejos" data-count="0">
+        <div class="image-placeholder">🐰</div>
+        <div class="space-header">Conejos</div>
+        <div class="space-sub">0 mascotas</div>
+        <button class="add-btn">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vista individual animal -->
+  <div class="section hidden" id="animal-view">
+    <button class="back-btn">← Volver</button>
+    <div class="empty-state">
+      <div class="empty-icon" id="empty-icon">🐾❓</div>
+      <p>Parece que no tienes ninguna mascota agregada.</p>
+      <button class="add-btn" id="add-animal-btn">Add</button>
+    </div>
+  </div>
+
+  <!-- Feed -->
+  <div class="section hidden" id="section-feed">
+    <div class="feed-tabs">
+      <div class="tabs-center">
+        <div class="tab active" data-tab="all">Todos los Posts</div>
+        <div class="tab" data-tab="following">Following</div>
+      </div>
+      <button class="search-icon-tab" id="search-toggle">🔍</button>
+    </div>
+
+    <div class="tab-content-container">
+      <div class="tab-content show" id="tab-all">
+        <p>Contenido de Todos los Posts</p>
+      </div>
+      <div class="tab-content" id="tab-following">
+        <p>Contenido de Following</p>
+      </div>
+    </div>
+
+    <div class="search-bar-container" id="search-bar-container">
+      <div class="search-bar">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="Buscar..." />
+        <button class="cancel-search" id="cancel-search">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="section hidden" id="section-search">
+    <h2>Search</h2>
+    <div class="search-tabs">
+      <div class="search-tab active" data-tab="posts">Posts</div>
+      <div class="search-tab" data-tab="people">Personas</div>
+      <div class="search-tab" data-tab="pets">Mascotas</div>
+    </div>
+    <div class="search-content">
+      <input type="text" placeholder="Buscar..." />
+    </div>
+  </div>
+
+  <!-- Profile (antes de la modificación de imagen circular) -->
+  <div class="section hidden" id="section-profile">
+    <h2>Perfil</h2>
+    <div class="profile-info">
+      <div class="info-item">
+        <span class="info-label">Nombre completo</span>
+        <span class="info-value" id="full-name">Pon tu nombre completo</span>
+        <button class="edit-btn" data-field="full-name">✎</button>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Username</span>
+        <span class="info-value" id="username">Pon tu username</span>
+        <button class="edit-btn" data-field="username">✎</button>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Correo electrónico</span>
+        <span class="info-value" id="email">Pon tu correo electrónico</span>
+        <button class="edit-btn" data-field="email">✎</button>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Bio</span>
+        <span class="info-value" id="bio">Cuéntanos más sobre ti</span>
+        <button class="edit-btn" data-field="bio">✎</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modales -->
+  <div class="modal hidden" id="notifications-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-notifications">×</span>
+      <h2>Notificaciones</h2>
+      <p>No hay notificaciones nuevas.</p>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="profile-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-profile">×</span>
+      <h2>Perfil</h2>
+      <p>Información del perfil del usuario.</p>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="add-pet-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-add-modal">×</span>
+      <button class="modal-btn"><span class="modal-icon">📷</span> Tomar Foto</button>
+      <button class="modal-btn"><span class="modal-icon">🖼️</span> Subir Imagen</button>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="edit-modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-edit-modal">×</span>
+      <h3 id="modal-title">Editar</h3>
+      <input type="text" id="modal-input" maxlength="150"/>
+      <p class="error-message" id="modal-error"></p>
+      <button class="save-btn" id="save-modal-btn">Guardar</button>
+    </div>
+  </div>
+
+  <!-- Navegación Inferior -->
+  <div class="bottom-nav">
+    <div class="nav-item selected" data-section="section-pets">
+      <div class="nav-icon">🐾</div>
+      <div>My Pets</div>
+    </div>
+    <div class="nav-item" data-section="section-feed">
+      <div class="nav-icon">📰</div>
+      <div>Feed</div>
+    </div>
+    <div class="nav-item center" id="open-modal">＋</div>
+    <div class="nav-item" data-section="section-search">
+      <div class="nav-icon">🔍</div>
+      <div>Search</div>
+    </div>
+    <div class="nav-item" data-section="section-profile">
+      <div class="nav-icon">👤</div>
+      <div>Profile</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
