@@ -7,31 +7,28 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="global-icons">
-  <span class="top-icon" id="open-notifications">🔔</span>
-  <span class="top-icon" id="open-profile">👤</span>
-</div>
 
-  <!-- Top bar -->
-  <div class="top-bar">
-    <div class="app-title">Animal Care App</div>
+  <!-- Iconos globales -->
+  <div class="global-icons">
+    <span class="top-icon" id="open-notifications">🔔</span>
+    <span class="top-icon" id="open-profile">👤</span>
   </div>
 
   <!-- My Pets -->
   <div class="section" id="section-pets">
     <h2>My Pets</h2>
     <div class="card-grid">
-      <div class="space-card" data-animal="perros" data-count="0">
+      <div class="space-card" data-animal="perros">
         <div class="image-placeholder">🐶</div>
         <div class="space-header">Perros</div>
         <div class="space-sub">0 mascotas</div>
       </div>
-      <div class="space-card" data-animal="gallinas" data-count="0">
+      <div class="space-card" data-animal="gallinas">
         <div class="image-placeholder">🐔</div>
         <div class="space-header">Gallinas</div>
         <div class="space-sub">0 mascotas</div>
       </div>
-      <div class="space-card" data-animal="conejos" data-count="0">
+      <div class="space-card" data-animal="conejos">
         <div class="image-placeholder">🐰</div>
         <div class="space-header">Conejos</div>
         <div class="space-sub">0 mascotas</div>
@@ -39,7 +36,7 @@
     </div>
   </div>
 
-  <!-- Vista individual animal -->
+  <!-- Animal View -->
   <div class="section hidden" id="animal-view">
     <button class="back-btn">← Volver</button>
     <div class="empty-state">
@@ -51,43 +48,32 @@
 
   <!-- Feed -->
   <div class="section hidden" id="section-feed">
-    <div class="feed-tabs">
-      <div class="tabs-center">
-        <div class="tab active" data-tab="all">Todos los Posts</div>
-        <div class="tab" data-tab="following">Following</div>
-      </div>
-      <button class="search-icon-tab" id="search-toggle">🔍</button>
-    </div>
-
-    <div class="tab-content-container">
-      <div class="tab-content show" id="tab-all">
-        <p>Contenido de Todos los Posts</p>
-      </div>
-      <div class="tab-content" id="tab-following">
-        <p>Contenido de Following</p>
-      </div>
-    </div>
-
-    <div class="search-bar-container" id="search-bar-container">
-      <div class="search-bar">
-        <span class="search-icon">🔍</span>
-        <input type="text" placeholder="Buscar..." />
-        <button class="cancel-search" id="cancel-search">Cancelar</button>
-      </div>
-    </div>
+    <h2>Feed</h2>
+    <p>Aquí va el contenido del feed.</p>
   </div>
 
   <!-- Search -->
-  <div class="section hidden" id="section-search">
-  <div class="search-container">
-    <div class="animated-search">
-      <input type="text" id="main-search" placeholder="Buscar mascotas...">
-      <span class="search-icon">🔍</span>
-    </div>
+<!-- Vista Search -->
+<div id="search-view" class="view">
+  <h2>Búsqueda de Animales</h2>
+
+  <!-- Este contenedor es donde aparecerán las tarjetas -->
+  <div id="animal-list" class="animal-list"></div>
+</div>
+
+
+<!-- Modal dinámico para info del animal -->
+<div class="modal hidden" id="animal-modal">
+  <div class="modal-content">
+    <span class="close-modal" id="close-animal-modal">×</span>
+    <h3 id="animal-title">Nombre</h3>
+    <img id="animal-image" src="" alt="" style="width: 100%; border-radius: 10px; margin: 10px 0;">
+    <p id="animal-description">Descripción o información aquí.</p>
   </div>
 </div>
 
-  <!-- Profile (antes de la modificación de imagen circular) -->
+
+  <!-- Profile -->
   <div class="section hidden" id="section-profile">
     <h2>Perfil</h2>
     <div class="profile-info">
@@ -114,7 +100,7 @@
     </div>
   </div>
 
-  <!-- Modales -->
+  <!-- Modales (notificaciones, perfil, edición) -->
   <div class="modal hidden" id="notifications-modal">
     <div class="modal-content">
       <span class="close-modal" id="close-notifications">×</span>
@@ -134,8 +120,8 @@
   <div class="modal hidden" id="add-pet-modal">
     <div class="modal-content">
       <span class="close-modal" id="close-add-modal">×</span>
-      <button class="modal-btn"><span class="modal-icon">📷</span> Tomar Foto</button>
-      <button class="modal-btn"><span class="modal-icon">🖼️</span> Subir Imagen</button>
+      <button class="modal-btn">📷 Tomar Foto</button>
+      <button class="modal-btn">🖼️ Subir Imagen</button>
     </div>
   </div>
 
@@ -149,7 +135,7 @@
     </div>
   </div>
 
-  <!-- Navegación Inferior -->
+  <!-- Navegación inferior -->
   <div class="bottom-nav">
     <div class="nav-item selected" data-section="section-pets">
       <div class="nav-icon">🐾</div>
@@ -171,5 +157,6 @@
   </div>
 
   <script src="script.js"></script>
+
 </body>
 </html>

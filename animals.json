@@ -1,0 +1,2127 @@
+[
+  {
+    "name": "Labrador Retriever",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/labrador-2787354_1280.jpg",
+    "description": "Amigable, activo y extrovertido."
+  },
+  {
+    "name": "Golden Retriever",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/03/14/11/57/golden-retriever-4929809_1280.jpg",
+    "description": "Inteligente, amigable y devoto."
+  },
+  {
+    "name": "Pastor Alemán",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/06/25/12/35/german-shepherd-2437110_1280.jpg",
+    "description": "Valiente, confiable y leal."
+  },
+  {
+    "name": "Rhode Island Roja",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/06/03/18/37/rhode-island-6305949_1280.jpg",
+    "description": "Buena ponedora de huevos marrones."
+  },
+  {
+    "name": "Leghorn",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/08/15/14/41/leghorn-5490656_1280.jpg",
+    "description": "Activa y excelente ponedora de huevos blancos."
+  },
+  {
+    "name": "Plymouth Rock",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/06/15/46/chicken-1718658_1280.jpg",
+    "description": "Gallina dual, buena para huevos y carne."
+  },
+  {
+    "name": "Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787354_1280.jpg",
+    "description": "Pelo corto, suave y sedoso."
+  },
+  {
+    "name": "Angora",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/03/23/14/17/angora-3253873_1280.jpg",
+    "description": "Famoso por su lana suave y larga."
+  },
+  {
+    "name": "Cabeza de León",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/06/22/16/15/bunny-5329736_1280.jpg",
+    "description": "Melena distintiva alrededor del cuello."
+  },
+  {
+    "name": "Conejo Holandés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dutch-rabbit-2787354_1280.jpg",
+    "description": "Pequeño y activo, con un distintivo patrón de color blanco y otro color."
+  },
+  {
+    "name": "Conejo Californiano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/californian-rabbit-2787354_1280.jpg",
+    "description": "Criado principalmente para la carne, con marcas oscuras en nariz, orejas, patas y cola."
+  },
+  {
+    "name": "Conejo Enano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dwarf-rabbit-2787354_1280.jpg",
+    "description": "Muy pequeño y popular como mascota, requiere cuidados especiales debido a su tamaño."
+  }
+ {
+    "name": "Sussex",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/sussex-chicken-2787354_1280.jpg",
+    "description": "Gallina de doble propósito, conocida por su carne y producción de huevos."
+  },
+  {
+    "name": "Orpington",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/orpington-chicken-2787354_1280.jpg",
+    "description": "Grande y dócil, excelente ponedora y buena para la carne."
+  },
+  {
+    "name": "Australorp",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/australorp-chicken-2787354_1280.jpg",
+    "description": "Famosa por su alta producción de huevos y temperamento tranquilo."
+  },
+  {
+    "name": "Beagle",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/02/19/11/53/beagle-1207800_1280.jpg",
+    "description": "Perro de tamaño mediano, amigable y con un excelente sentido del olfato."
+  },
+  {
+    "name": "Bulldog Francés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/french-bulldog-2787354_1280.jpg",
+    "description": "Pequeño, musculoso y con orejas de murciélago; excelente compañero de apartamento."
+  },
+  {
+    "name": "Poodle",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/17/20/poodle-1838766_1280.jpg",
+    "description": "Inteligente y elegante, conocido por su pelaje rizado y habilidades en competencias."
+  },
+  {
+    "name": "Mini Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/01/10/07/25/rabbit-4753224_1280.jpg",
+    "description": "Pequeño, orejas caídas y cariñoso."
+  },
+  {
+    "name": "Conejo Californiano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/12/27/18/14/rabbit-5864763_1280.jpg",
+    "description": "Orejas oscuras, criado para carne."
+  },
+  {
+    "name": "Conejo Gigante de Flandes",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/07/28/13/07/rabbit-7349820_1280.jpg",
+    "description": "Uno de los más grandes del mundo."
+  },
+  {
+    "name": "Conejo Hotot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/03/21/15/12/hotot-6110951_1280.jpg",
+    "description": "Blanco con delineado negro."
+  },
+  {
+    "name": "Conejo Enano Holandés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/02/18/18/49/bunny-4860582_1280.jpg",
+    "description": "Miniatura, tierno y activo."
+  },
+  {
+    "name": "Conejo Tan",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787354_1280.jpg",
+    "description": "Colores intensos, enérgico y ágil."
+  },
+  {
+    "name": "Conejo Havana",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2015/09/29/12/58/rabbit-963788_1280.jpg",
+    "description": "Dócil y con pelaje chocolate."
+  },
+  {
+    "name": "Conejo Chinchilla",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/12/06/12/17/chinchilla-3860754_1280.jpg",
+    "description": "Pelaje gris suave como una chinchilla."
+  },
+  {
+    "name": "Conejo Satin",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787355_1280.jpg",
+    "description": "Brillo satinado y calmado."
+  },
+  {
+    "name": "Conejo Inglés Spot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/04/09/11/48/rabbit-5020343_1280.jpg",
+    "description": "Manchas y línea dorsal oscura."
+  },
+  {
+    "name": "Gallina Brahma",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2018/02/28/18/26/chicken-3187140_1280.jpg",
+    "description": "Grande, plácida y buena para carne."
+  },
+  {
+    "name": "Gallina Silkie",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2019/03/04/12/17/silkie-4031080_1280.jpg",
+    "description": "Parece un pompón; dócil y adorable."
+  },
+  {
+    "name": "Gallina Araucana",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/02/06/23/48/araucana-2045909_1280.jpg",
+    "description": "Pone huevos azulados; sin cola."
+  },
+  {
+    "name": "Gallina Cochin",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/06/14/19/47/cochin-7262367_1280.jpg",
+    "description": "Grande, peluda y tranquila."
+  },
+  {
+    "name": "Gallina Polish",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/11/01/19/32/polish-5754732_1280.jpg",
+    "description": "Con gran cresta, decorativa y amigable."
+  },
+  {
+    "name": "Gallina Sussex",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2019/03/12/13/53/chicken-4050672_1280.jpg",
+    "description": "Muy buena para carne y huevos."
+  },
+  {
+    "name": "Gallina Orpington",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2018/03/11/17/48/chicken-3217299_1280.jpg",
+    "description": "Amigable, grande y esponjosa."
+  },
+  {
+    "name": "Gallina Marans",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2019/10/13/20/31/chicken-4546925_1280.jpg",
+    "description": "Huevos color chocolate; resistente."
+  },
+  {
+    "name": "Gallina Andalusian",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/chicken-6680594_1280.jpg",
+    "description": "Hermosa pluma azul; activa."
+  },
+  {
+    "name": "Gallina Sebright",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/20/51/sebright-1839023_1280.jpg",
+    "description": "Pequeña, elegante y decorativa."
+  },
+  {
+    "name": "Akita Inu",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/03/28/10/01/akita-6130460_1280.jpg",
+    "description": "Fuerte, leal y reservado."
+  },
+  {
+    "name": "Shiba Inu",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/06/15/10/46/dog-2403491_1280.jpg",
+    "description": "Ágil, alerta y elegante."
+  },
+  {
+    "name": "Pug",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/02/10/16/37/dog-1194083_1280.jpg",
+    "description": "Cariñoso, juguetón y encantador."
+  },
+  {
+    "name": "Border Collie",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/01/15/07/51/dog-3084107_1280.jpg",
+    "description": "Muy inteligente y enérgico."
+  },
+  {
+    "name": "Husky Siberiano",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/12/17/13/51/siberian-husky-6875719_1280.jpg",
+    "description": "Resistente, amable y libre."
+  },
+  {
+    "name": "Samoyedo",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/02/12/15/28/samoyed-1199051_1280.jpg",
+    "description": "Blanco, sonriente y cariñoso."
+  },
+  {
+    "name": "Cocker Spaniel",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/02/17/15/02/cocker-spaniel-7018225_1280.jpg",
+    "description": "Afectuoso, activo y con orejas largas."
+  },
+  {
+    "name": "Schnauzer Miniatura",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/01/01/18/43/schnauzer-3057396_1280.jpg",
+    "description": "Vigilante, amigable y elegante."
+  },
+  {
+    "name": "Gran Danés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/01/14/12/59/great-dane-1972868_1280.jpg",
+    "description": "Gigante gentil y noble."
+  },
+  {
+    "name": "Dálmata",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dalmatian-2787354_1280.jpg",
+    "description": "Energético, juguetón y elegante."
+  },
+  {
+    "name": "Conejo Bélier Francés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2015/05/26/19/13/rabbit-785806_1280.jpg",
+    "description": "Grande, orejas caídas y gentil."
+  },
+  {
+    "name": "Conejo Holandés Enano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/dutch-rabbit-2787354_1280.jpg",
+    "description": "Pequeño, con patrón blanco."
+  },
+  {
+    "name": "Conejo Zorro de Fuego",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787355_1280.jpg",
+    "description": "Color rojizo brillante, calmado."
+  },
+  {
+    "name": "Conejo Alaska",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787356_1280.jpg",
+    "description": "Pelaje oscuro, dócil y tranquilo."
+  },
+  {
+    "name": "Conejo Ruso Azul",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/08/22/17/37/rabbit-5508617_1280.jpg",
+    "description": "Pelaje gris-azulado, calmado y suave."
+  },
+  {
+    "name": "Conejo Belga",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/04/23/18/27/rabbit-1341464_1280.jpg",
+    "description": "Criado para carne, robusto."
+  },
+  {
+    "name": "Conejo Plata",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/silver-rabbit-2787354_1280.jpg",
+    "description": "Pelaje gris metálico, elegante."
+  },
+  {
+    "name": "Conejo Champagne",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/05/11/08/56/rabbit-5156549_1280.jpg",
+    "description": "Color champagne, dócil y sociable."
+  },
+  {
+    "name": "Conejo Zorro",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/05/30/17/57/rabbit-4240655_1280.jpg",
+    "description": "Pelaje largo y cara de zorro."
+  },
+  {
+    "name": "Gallina Hamburguesa",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/07/27/09/24/chicken-5442342_1280.jpg",
+    "description": "Elegante y buena ponedora."
+  },
+  {
+    "name": "Gallina Faverolles",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/05/24/15/53/faverolles-1414166_1280.jpg",
+    "description": "Tranquila, esponjosa y social."
+  },
+  {
+    "name": "Gallina Barnevelder",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2018/07/06/11/06/barnevelder-3519477_1280.jpg",
+    "description": "Huevos marrones oscuros, amigable."
+  },
+  {
+    "name": "Gallina Campine",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/06/30/21/06/chicken-5354352_1280.jpg",
+    "description": "Belga, decorativa y enérgica."
+  },
+  {
+    "name": "Gallina Java",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/04/04/21/30/chicken-5002025_1280.jpg",
+    "description": "Antigua raza americana, robusta."
+  },
+  {
+    "name": "Gallina Sumatra",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/01/24/17/56/sumatra-4790670_1280.jpg",
+    "description": "Negra, brillante, con cola larga."
+  },
+  {
+    "name": "Gallina Fayoumi",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/04/14/15/26/chicken-7132421_1280.jpg",
+    "description": "Egipcia, muy resistente."
+  },
+  {
+    "name": "Gallina Dominique",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/22/23/43/chicken-1851050_1280.jpg",
+    "description": "Primera raza estadounidense reconocida."
+  },
+  {
+    "name": "Gallina Campine Dorada",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/01/13/09/18/chicken-4760117_1280.jpg",
+    "description": "Brillante, activa y amigable."
+  },
+  {
+    "name": "Basenji",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/06/09/20/35/basenji-2380389_1280.jpg",
+    "description": "No ladra, elegante y muy limpio."
+  },
+  {
+    "name": "Cavalier King Charles",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/03/29/17/16/cavalier-3270208_1280.jpg",
+    "description": "Cariñoso, elegante y dócil."
+  },
+  {
+    "name": "Boxer",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/11/22/20/01/boxer-1850821_1280.jpg",
+    "description": "Alegre, protector y enérgico."
+  },
+  {
+    "name": "Shar Pei",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/05/08/15/04/sharpei-5146929_1280.jpg",
+    "description": "Arrugado, tranquilo y leal."
+  },
+  {
+    "name": "Fox Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/01/24/12/10/fox-terrier-6962355_1280.jpg",
+    "description": "Activo, curioso y tenaz."
+  },
+  {
+    "name": "Pomerania",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/pomeranian-2787354_1280.jpg",
+    "description": "Esponjoso, vivaz y cariñoso."
+  },
+  {
+    "name": "Alaskan Malamute",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/03/06/21/53/malamute-4038561_1280.jpg",
+    "description": "Resistente, leal y poderoso."
+  },
+  {
+    "name": "Collie",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/03/25/10/30/collie-3259870_1280.jpg",
+    "description": "Elegante, protector y gentil."
+  },
+  {
+    "name": "Basset Hound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/basset-hound-1284303_1280.jpg",
+    "description": "Orejas largas, tranquilo y amigable."
+  },
+  {
+    "name": "Conejo English Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/06/18/17/42/rabbit-1469577_1280.jpg",
+    "description": "Orejas más largas del mundo."
+  },
+  {
+    "name": "Conejo Lionhead Mini",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/10/17/20/01/lionhead-rabbit-6716621_1280.jpg",
+    "description": "Con melena alrededor de la cabeza."
+  },
+  {
+    "name": "Conejo Harlequin",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/07/01/15/38/harlequin-4310962_1280.jpg",
+    "description": "Pelaje multicolor, juguetón y sociable."
+  },
+  {
+    "name": "Conejo Dutch Blue",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/12/02/14/10/dutch-rabbit-1878422_1280.jpg",
+    "description": "Tricolor, activo y muy popular."
+  },
+  {
+    "name": "Conejo Giant Chinchilla",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/02/01/17/07/chinchilla-rabbit-4812342_1280.jpg",
+    "description": "Grande y de pelaje gris sedoso."
+  },
+  {
+    "name": "Conejo Mini Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284311_1280.jpg",
+    "description": "Pelo aterciopelado, cuerpo compacto."
+  },
+  {
+    "name": "Conejo English Angora",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/02/25/17/47/rabbit-3180572_1280.jpg",
+    "description": "Pelo largo, fino y requiere cuidado."
+  },
+  {
+    "name": "Conejo American Sable",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/02/28/13/01/rabbit-4026371_1280.jpg",
+    "description": "Color oscuro en extremidades, gentil."
+  },
+  {
+    "name": "Conejo Palomino",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/07/22/21/59/palomino-rabbit-6487565_1280.jpg",
+    "description": "Color dorado claro, buen carácter."
+  },
+  {
+    "name": "Gallina Buckeye",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/18/18/11/chicken-6103000_1280.jpg",
+    "description": "Roja, resistente al frío y productiva."
+  },
+  {
+    "name": "Gallina Minorca",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/chicken-6680592_1280.jpg",
+    "description": "Española, elegante y excelente ponedora."
+  },
+  {
+    "name": "Gallina Malay",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/malay-chicken-6680593_1280.jpg",
+    "description": "Muy alta, postura erguida y fuerte."
+  },
+  {
+    "name": "Gallina Old English Game",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2018/12/19/19/41/chicken-3884615_1280.jpg",
+    "description": "Antigua raza de pelea, hoy ornamental."
+  },
+  {
+    "name": "Gallina Hamburg",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/10/16/08/chicken-1723007_1280.jpg",
+    "description": "Pequeña, moteada y buena ponedora."
+  },
+  {
+    "name": "Gallina Langshan",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/15/21/40/chicken-6097726_1280.jpg",
+    "description": "Grande, negra y de patas emplumadas."
+  },
+  {
+    "name": "Gallina Campine Plateada",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/06/30/21/06/chicken-5354351_1280.jpg",
+    "description": "Activa, brillante y amigable."
+  },
+  {
+    "name": "Gallina Wyandotte",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/wyandotte-2787354_1280.jpg",
+    "description": "Colorida, buena ponedora y ornamental."
+  },
+  {
+    "name": "Gallina Java Negra",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/black-java-6680591_1280.jpg",
+    "description": "Antigua y robusta, de color oscuro."
+  },
+  {
+    "name": "Dalmatian",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/01/21/06/54/dalmatian-1150119_1280.jpg",
+    "description": "Conocido por sus manchas negras únicas y energía inagotable."
+  },
+  {
+    "name": "Doberman Pinscher",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/21/36/doberman-1285040_1280.jpg",
+    "description": "Elegante, leal y poderoso."
+  },
+  {
+    "name": "Bull Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/20/56/bull-terrier-1284937_1280.jpg",
+    "description": "Cuerpo musculoso y cabeza en forma de huevo."
+  },
+  {
+    "name": "Whippet",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/04/09/16/11/whippet-5021013_1280.jpg",
+    "description": "Rápido, sensible y de carácter suave."
+  },
+  {
+    "name": "Great Pyrenees",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/02/10/09/54/white-dog-3141866_1280.jpg",
+    "description": "Impresionante guardián de ganado, muy protector."
+  },
+  {
+    "name": "Irish Setter",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/01/21/06/54/irish-setter-1150120_1280.jpg",
+    "description": "Pelaje rojo sedoso y naturaleza amistosa."
+  },
+  {
+    "name": "Cane Corso",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/05/16/11/48/cane-corso-3404646_1280.jpg",
+    "description": "Valiente, protector y muy atlético."
+  },
+  {
+    "name": "Boston Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/dog-1952233_1280.jpg",
+    "description": "Pequeño, de ojos saltones y muy sociable."
+  },
+  {
+    "name": "Scottish Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/08/06/23/07/dog-3586819_1280.jpg",
+    "description": "Patitas cortas, peludo y valiente."
+  },
+  {
+    "name": "Afghan Hound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/10/18/17/13/afghan-hound-4560347_1280.jpg",
+    "description": "Elegante, veloz y con pelaje sedoso."
+  },
+  {
+    "name": "American Eskimo Dog",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/05/15/22/10/dog-1398973_1280.jpg",
+    "description": "Pelaje blanco y carácter alerta."
+  },
+  {
+    "name": "Basenji",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/06/09/20/35/basenji-2380389_1280.jpg",
+    "description": "Conocido como el perro que no ladra."
+  },
+  {
+    "name": "Belgian Malinois",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/10/02/09/38/belgian-malinois-5619045_1280.jpg",
+    "description": "Extremadamente inteligente y protector."
+  },
+  {
+    "name": "Bloodhound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/04/19/21/25/dog-1330314_1280.jpg",
+    "description": "Olfato inigualable y orejas largas."
+  },
+  {
+    "name": "Cavalier King Charles Spaniel",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/05/10/17/42/dog-1381843_1280.jpg",
+    "description": "Dulce, pequeño y muy sociable."
+  },
+  {
+    "name": "Chow Chow",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/10/06/22/28/dog-3727321_1280.jpg",
+    "description": "Pelaje espeso y lengua azul."
+  },
+  {
+    "name": "Dogo Argentino",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/07/09/21/31/dogo-argentina-5388399_1280.jpg",
+    "description": "Musculoso, fuerte y protector."
+  },
+  {
+    "name": "Hound Inglés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/08/24/09/29/hound-5513911_1280.jpg",
+    "description": "Excelente rastreador, tranquilo y amistoso."
+  },
+  {
+    "name": "Komondor",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/10/16/16/54/dog-1742864_1280.jpg",
+    "description": "Pelaje como dreadlocks; guardián de ganado."
+  },
+  {
+    "name": "Lhasa Apso",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/06/21/14/12/dog-6352734_1280.jpg",
+    "description": "Pequeño, con pelaje largo y brillante."
+  },
+  {
+    "name": "Manchester Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/06/27/14/44/dog-2446536_1280.jpg",
+    "description": "Ágil, elegante y vigilante."
+  },
+  {
+    "name": "Newfoundland",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/05/05/10/54/dog-1376338_1280.jpg",
+    "description": "Gigante, amable y excelente nadador."
+  },
+  {
+    "name": "Pekingese",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/09/19/22/56/pekingese-5584992_1280.jpg",
+    "description": "Compacto, peludo y orgulloso."
+  },
+  {
+    "name": "Plott Hound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/08/27/20/40/plotthound-5525039_1280.jpg",
+    "description": "Fuerte cazador, leal y activo."
+  },
+  {
+    "name": "Saluki",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/11/17/15/28/saluki-5749400_1280.jpg",
+    "description": "Delgado, elegante y antiguo cazador."
+  },
+  {
+    "name": "Schipperke",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/12/09/19/10/schipperke-5817437_1280.jpg",
+    "description": "Negro, pequeño y enérgico."
+  },
+  {
+    "name": "Sealyham Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/08/01/17/35/dog-4375459_1280.jpg",
+    "description": "Valiente, con barba y patitas cortas."
+  },
+  {
+    "name": "Tibetan Spaniel",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/04/14/12/10/tibetan-spaniel-5042095_1280.jpg",
+    "description": "Vigilante, feliz y adaptado al frío."
+  },
+  {
+    "name": "Vizsla",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/11/19/18/44/vizsla-5754202_1280.jpg",
+    "description": "Atento, obediente y de color dorado."
+  },
+  {
+    "name": "Welsh Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/10/21/33/welsh-terrier-5286062_1280.jpg",
+    "description": "Pequeño, peludo y enérgico."
+  },
+  {
+    "name": "Xoloitzcuintli",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/12/20/00/46/xoloitzcuintli-5843051_1280.jpg",
+    "description": "Perro mexicano sin pelo y muy leal."
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/01/06/19/15/dog-1952233_1280.jpg",
+    "description": "Pequeño, elegante y muy valiente."
+  },
+  {
+    "name": "Norwegian Elkhound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/11/14/15/13/norwegian-elkhound-5739080_1280.jpg",
+    "description": "Raza vikinga, audaz y leal."
+  },
+  {
+    "name": "Papillon",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/01/31/20/26/papillon-2028261_1280.jpg",
+    "description": "Orejas en forma de mariposa, activo y feliz."
+  },
+  {
+    "name": "Gallina Asil",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/21/15/08/hen-6110939_1280.jpg",
+    "description": "Fuerte, luchadora y de origen indio."
+  },
+  {
+    "name": "Gallina Appenzeller",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/05/18/17/27/appenzeller-5187582_1280.jpg",
+    "description": "Pequeña y con cresta en forma de V."
+  },
+  {
+    "name": "Gallina Ayam Cemani",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/08/10/21/38/ayam-cemani-5477946_1280.jpg",
+    "description": "Completamente negra, desde plumas hasta órganos."
+  },
+  {
+    "name": "Gallina Brakel",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/10/05/13/46/brakel-5630605_1280.jpg",
+    "description": "Europea, buenísima ponedora y activa."
+  },
+  {
+    "name": "Gallina Cubalaya",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/04/04/17/57/cubalaya-7109272_1280.jpg",
+    "description": "Cubana, elegante y de porte orgulloso."
+  },
+  {
+    "name": "Gallina Houdan",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/06/23/12/houdan-1719233_1280.jpg",
+    "description": "De cresta mariposa y plumaje abultado."
+  },
+  {
+    "name": "Gallina Lakenvelder",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/17/21/10/lakenvelder-6100973_1280.jpg",
+    "description": "Blanca con cuello y cola negros."
+  },
+  {
+    "name": "Gallina Modern Game",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/03/17/17/13/chicken-4937457_1280.jpg",
+    "description": "De pelea, pero ahora ornamental."
+  },
+  {
+    "name": "Gallina Naked Neck (Transilvania)",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/05/10/15/46/naked-neck-5154135_1280.jpg",
+    "description": "Cuello sin plumas, resistente y productiva."
+  },
+  {
+    "name": "Gallina Nankin",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/09/15/21/50/nankin-6627641_1280.jpg",
+    "description": "Muy antigua, pequeña y amigable."
+  },
+  {
+    "name": "Gallina New Hampshire",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/01/13/13/05/chicken-4760812_1280.jpg",
+    "description": "Rápida desarrolladora y muy usada en producción."
+  },
+  {
+    "name": "Gallina Onagadori",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/14/17/09/onagadori-6090912_1280.jpg",
+    "description": "Plumas de cola extremadamente largas, japonesa."
+  },
+  {
+    "name": "Gallina Phoenix",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/07/12/13/31/phoenix-1513869_1280.jpg",
+    "description": "Cola larga, ornamental y japonesa."
+  },
+  {
+    "name": "Gallina Rosecomb",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/06/15/36/chicken-1718643_1280.jpg",
+    "description": "Raza bantam ornamental, muy activa."
+  },
+  {
+    "name": "Gallina Shamo",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/shamo-6680593_1280.jpg",
+    "description": "Alta, fuerte, de combate japonés."
+  },
+  {
+    "name": "Gallina Sultan",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/08/26/23/01/chicken-1621414_1280.jpg",
+    "description": "Muy ornamentada, con barba y cresta."
+  },
+  {
+    "name": "Gallina Thuringian",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/02/07/19/52/chicken-5991723_1280.jpg",
+    "description": "Ornamental alemana con barba llamativa."
+  },
+  {
+    "name": "Gallina Vorwerk",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/vorwerk-2787354_1280.jpg",
+    "description": "Bicolor dorada y negra, muy versátil."
+  },
+  {
+    "name": "Gallina Yokohama",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2018/04/06/06/19/chicken-3293782_1280.jpg",
+    "description": "Cola larga y elegante, japonesa ornamental."
+  },
+  {
+    "name": "Gallina Bresse",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/09/02/10/52/chicken-6592825_1280.jpg",
+    "description": "Famosa por su carne blanca y jugosa."
+  },
+  {
+    "name": "Gallina Campine",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/05/24/07/33/chicken-5215191_1280.jpg",
+    "description": "Activa y llamativa, originaria de Bélgica."
+  },
+  {
+    "name": "Gallina Icelandic",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/06/10/20/17/chicken-5285902_1280.jpg",
+    "description": "Muy resistente al clima frío."
+  },
+  {
+    "name": "Gallina Dominique",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/05/09/50/dominique-6680591_1280.jpg",
+    "description": "La más antigua de EE.UU., con barrado."
+  },
+  {
+    "name": "Gallina Cream Legbar",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/01/13/13/10/chicken-4760827_1280.jpg",
+    "description": "Huevos azulados y cresta peculiar."
+  },
+  {
+    "name": "Gallina Welsummer",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/10/16/09/chicken-1723008_1280.jpg",
+    "description": "Huevos color chocolate, holandesa y tranquila."
+  },
+  {
+    "name": "Conejo Britannia Petite",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/03/31/08/17/rabbit-4988674_1280.jpg",
+    "description": "Pequeño, elegante y activo."
+  },
+  {
+    "name": "Conejo Flemish Giant",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2015/08/30/09/35/flemish-giant-914091_1280.jpg",
+    "description": "Una de las razas más grandes, dócil."
+  },
+  {
+    "name": "Conejo Lilac",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/02/15/16/10/rabbit-7012780_1280.jpg",
+    "description": "Color lila suave, muy tranquilo."
+  },
+  {
+    "name": "Conejo Netherland Dwarf",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/06/01/22/51/rabbit-3448792_1280.jpg",
+    "description": "Pequeñísimo y de orejas cortas."
+  },
+  {
+    "name": "Conejo Rex Mini",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/rabbit-2787354_1280.jpg",
+    "description": "Tamaño reducido del clásico Rex."
+  },
+  {
+    "name": "Conejo Jersey Wooly",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/12/02/22/39/rabbit-7631846_1280.jpg",
+    "description": "Compacto y con lana suave."
+  },
+  {
+    "name": "Conejo French Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/05/26/16/52/rabbit-1414522_1280.jpg",
+    "description": "Grande, con orejas caídas y tranquilo."
+  },
+  {
+    "name": "Conejo Satin Angora",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/02/23/00/03/angora-3172463_1280.jpg",
+    "description": "Lana brillante y sedosa."
+  },
+  {
+    "name": "Conejo Havana Blue",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284310_1280.jpg",
+    "description": "Pelaje azul profundo, ojos oscuros."
+  },
+  {
+    "name": "Conejo American Blue",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/04/12/14/13/rabbit-6171470_1280.jpg",
+    "description": "Robusto, azul plateado y amigable."
+  },
+  {
+    "name": "Conejo Belgian Hare",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2015/07/12/19/45/belgian-hare-841878_1280.jpg",
+    "description": "Apariencia de liebre, muy ágil."
+  },
+  {
+    "name": "Conejo Beveren",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/03/18/21/09/beveren-4061583_1280.jpg",
+    "description": "Grande, suave y con forma cilíndrica."
+  },
+  {
+    "name": "Conejo Blanc de Hotot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/07/25/09/53/rabbit-5437284_1280.jpg",
+    "description": "Blanco con delineado negro en ojos."
+  },
+  {
+    "name": "Conejo Crème d’Argent",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/04/04/11/00/rabbit-7108470_1280.jpg",
+    "description": "Color crema claro, muy suave."
+  },
+  {
+    "name": "Conejo Dwarf Hotot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/08/15/20/43/rabbit-7389632_1280.jpg",
+    "description": "Pequeño con ojos delineados en negro."
+  },
+  {
+    "name": "Conejo English Spot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/11/03/15/11/rabbit-4597981_1280.jpg",
+    "description": "Con línea dorsal negra y manchas."
+  },
+  {
+    "name": "Conejo Florida White",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/06/24/06/20/rabbit-5335631_1280.jpg",
+    "description": "Compacto, blanco, de laboratorio."
+  },
+  {
+    "name": "Conejo Giant Papillon",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/01/24/17/56/rabbit-4790671_1280.jpg",
+    "description": "Orejas largas y manchas tipo mariposa."
+  },
+  {
+    "name": "Conejo Harlequin Japonés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/02/20/18/44/rabbit-4865512_1280.jpg",
+    "description": "Pelaje dividido en dos colores vivos."
+  },
+  {
+    "name": "Conejo Palomino Americano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/11/23/23/23/rabbit-5770657_1280.jpg",
+    "description": "Color dorado o beige, amigable."
+  },
+  {
+    "name": "Conejo Rex Standard",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284309_1280.jpg",
+    "description": "Pelo aterciopelado, tamaño medio."
+  },
+  {
+    "name": "Conejo Silver Fox",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/06/06/00/09/rabbit-6313900_1280.jpg",
+    "description": "Pelaje que parece el de un zorro plateado."
+  },
+  {
+    "name": "Conejo Tan Negro",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/11/20/21/17/rabbit-4639315_1280.jpg",
+    "description": "Color oscuro con marcas rojizas brillantes."
+  },
+  {
+    "name": "Conejo Thrianta",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/02/25/16/19/rabbit-6050911_1280.jpg",
+    "description": "Rojo brillante, corto y simpático."
+  },
+  {
+    "name": "Conejo Wooly Angora",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/07/31/07/44/rabbit-4370620_1280.jpg",
+    "description": "Con pelaje lanudo, ideal para lana."
+  },
+  {
+    "name": "Norfolk Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/12/17/06/dog-4690160_1280.jpg",
+    "description": "Pequeño, valiente y muy sociable."
+  },
+  {
+    "name": "Norwich Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/11/10/21/19/dog-5730305_1280.jpg",
+    "description": "Ágil, afectuoso y alerta."
+  },
+  {
+    "name": "Coton de Tulear",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/08/24/05/43/dog-7407145_1280.jpg",
+    "description": "Pelaje suave como algodón, muy amigable."
+  },
+  {
+    "name": "Tosa Inu",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/06/30/20/30/tosa-inu-7296051_1280.jpg",
+    "description": "Grande, reservado y protector."
+  },
+  {
+    "name": "Norwegian Lundehund",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/08/03/11/00/lundehund-7359463_1280.jpg",
+    "description": "Flexible, raro y de seis dedos."
+  },
+  {
+    "name": "American Hairless Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2023/02/03/15/13/terrier-7764482_1280.jpg",
+    "description": "Sin pelo, curioso y activo."
+  },
+  {
+    "name": "Spinone Italiano",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/01/19/15/27/italian-dog-6948501_1280.jpg",
+    "description": "Cazador de apariencia bonachona."
+  },
+  {
+    "name": "Sloughi",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/04/25/18/45/sloughi-5092722_1280.jpg",
+    "description": "Galgo africano, reservado y elegante."
+  },
+  {
+    "name": "Keeshond",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/01/29/15/47/keeshond-5960302_1280.jpg",
+    "description": "Peludo, expresivo y sociable."
+  },
+  {
+    "name": "Entlebucher Mountain Dog",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/04/02/17/27/dog-7097383_1280.jpg",
+    "description": "Ganadero suizo fuerte y compacto."
+  },
+  {
+    "name": "Toy Fox Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/12/18/18/47/fox-terrier-6878368_1280.jpg",
+    "description": "Pequeño pero enérgico y valiente."
+  },
+  {
+    "name": "Portuguese Podengo",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/10/15/06/34/dog-5653681_1280.jpg",
+    "description": "Perro cazador ágil de Portugal."
+  },
+  {
+    "name": "Pumi",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/pumi-2787354_1280.jpg",
+    "description": "Ovejero húngaro de orejas puntiagudas."
+  },
+  {
+    "name": "Russian Toy",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/03/02/14/44/dog-4897641_1280.jpg",
+    "description": "Pequeño, elegante y vivaz."
+  },
+  {
+    "name": "Seppala Siberian Sleddog",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/01/12/21/34/sled-dog-5911431_1280.jpg",
+    "description": "Tirador de trineo, resistente y rápido."
+  },
+  {
+    "name": "Thai Ridgeback",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/06/06/21/44/thai-ridgeback-4256056_1280.jpg",
+    "description": "Raro, musculoso y protector."
+  },
+  {
+    "name": "American Water Spaniel",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2022/08/13/15/03/american-water-spaniel-7382581_1280.jpg",
+    "description": "Pescador y cazador amante del agua."
+  },
+  {
+    "name": "Chin Japonés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/04/05/18/32/japanese-chin-1306111_1280.jpg",
+    "description": "Pequeño, aristocrático y refinado."
+  },
+  {
+    "name": "Puli",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2015/09/10/20/36/puli-934064_1280.jpg",
+    "description": "Ovejero húngaro de cordones en el pelaje."
+  },
+  {
+    "name": "Azawakh",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/01/21/07/12/dog-4782314_1280.jpg",
+    "description": "Galgo africano, elegante y distante."
+  },
+  {
+    "name": "Perro Lobo Checoslovaco",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2016/04/22/09/38/wolfdog-1341537_1280.jpg",
+    "description": "Cruce de lobo y pastor alemán, imponente."
+  },
+  {
+    "name": "American Foxhound",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/03/30/11/29/dog-3272093_1280.jpg",
+    "description": "Cazador de zorros ágil y fuerte."
+  },
+  {
+    "name": "Boerboel",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/28/07/01/dog-5349047_1280.jpg",
+    "description": "Guardia de Sudáfrica, musculoso y firme."
+  },
+  {
+    "name": "Karelian Bear Dog",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/05/01/11/28/karelian-5121523_1280.jpg",
+    "description": "Valiente, usado para cazar osos."
+  },
+  {
+    "name": "Lagotto Romagnolo",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2021/05/13/08/46/lagotto-6250638_1280.jpg",
+    "description": "Buscador de trufas, dócil y trabajador."
+  },
+  {
+    "name": "Gallina La Fleche",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2023/04/01/20/38/chicken-7893013_1280.jpg",
+    "description": "Francesa, con cresta en forma de V y elegante."
+  },
+  {
+    "name": "Gallina Frizzle",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/01/30/07/22/frizzle-chicken-6984162_1280.jpg",
+    "description": "Plumas rizadas únicas, dócil y curiosa."
+  },
+  {
+    "name": "Gallina Barbu d'Uccle",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/09/19/17/56/chicken-6637783_1280.jpg",
+    "description": "Belga, ornamental y con barba llamativa."
+  },
+  {
+    "name": "Gallina Modern Game",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/07/11/08/28/modern-game-5393396_1280.jpg",
+    "description": "Alta, elegante y de porte fino."
+  },
+  {
+    "name": "Gallina Redcap",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/07/16/18/06/redcap-6471027_1280.jpg",
+    "description": "Cresta distintiva y plumaje moteado."
+  },
+  {
+    "name": "Gallina Scots Dumpy",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/03/17/19/10/chicken-6100822_1280.jpg",
+    "description": "Escocesa, cuerpo bajo y amigable."
+  },
+  {
+    "name": "Gallina Swedish Flower",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/11/30/11/08/chicken-7626076_1280.jpg",
+    "description": "Colorida y muy resistente."
+  },
+  {
+    "name": "Gallina Bielefelder",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/06/08/11/35/bielefelder-7249510_1280.jpg",
+    "description": "Alemana, dócil y excelente ponedora."
+  },
+  {
+    "name": "Gallina Chantecler",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/11/19/10/57/chicken-6805551_1280.jpg",
+    "description": "Resistente al frío, desarrollada en Canadá."
+  },
+  {
+    "name": "Gallina Java",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/07/07/19/55/chicken-5382222_1280.jpg",
+    "description": "Una de las razas más antiguas de EE. UU."
+  },
+  {
+    "name": "Gallina Ancona",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/03/11/11/11/ancona-4918506_1280.jpg",
+    "description": "Italiana, activa y resistente."
+  },
+  {
+    "name": "Gallina Buttercup Siciliana",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/10/07/17/56/chicken-1720867_1280.jpg",
+    "description": "Cresta única en forma de flor."
+  },
+  {
+    "name": "Gallina Dorking",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/07/04/11/57/dorking-7299819_1280.jpg",
+    "description": "Antigua, de patas cortas y carne sabrosa."
+  },
+  {
+    "name": "Gallina Fayoumi",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/08/14/13/48/fayoumi-5485994_1280.jpg",
+    "description": "Egipcia, muy resistente y activa."
+  },
+  {
+    "name": "Gallina Jaerhon",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/01/21/11/44/chicken-5937172_1280.jpg",
+    "description": "Noruega, pequeña y ponedora de huevos blancos."
+  },
+  {
+    "name": "Gallina Lakenvelder",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/08/20/08/33/chicken-5503282_1280.jpg",
+    "description": "Con patrón blanco y negro, elegante."
+  },
+  {
+    "name": "Gallina Malay",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2022/07/01/10/32/malay-chicken-7297166_1280.jpg",
+    "description": "Altísima, de postura vertical."
+  },
+  {
+    "name": "Gallina Nankin",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/08/04/12/59/chicken-5461867_1280.jpg",
+    "description": "Antigua raza bantam, pequeña y atractiva."
+  },
+  {
+    "name": "Gallina Old English Pheasant Fowl",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/10/06/14/42/chicken-6684166_1280.jpg",
+    "description": "Resistente y con plumaje brillante."
+  },
+  {
+    "name": "Gallina Pavlovskaya",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/11/16/16/58/chicken-6799012_1280.jpg",
+    "description": "Rusa, decorativa y rara."
+  },
+  {
+    "name": "Gallina Red Junglefowl",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/05/07/04/51/junglefowl-5143047_1280.jpg",
+    "description": "Antecesor salvaje del pollo doméstico."
+  },
+  {
+    "name": "Gallina Rumpless Araucana",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/09/03/07/39/araucana-5539701_1280.jpg",
+    "description": "Sin cola, pone huevos azules."
+  },
+  {
+    "name": "Gallina Scots Grey",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/12/29/12/51/scots-grey-5870318_1280.jpg",
+    "description": "De Escocia, plumaje barrado distintivo."
+  },
+  {
+    "name": "Gallina Silver Spangled Hamburg",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2021/07/12/06/56/hamburg-6404094_1280.jpg",
+    "description": "Decorativa, ligera y vivaz."
+  },
+  {
+    "name": "Gallina Vorwerk",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2020/09/24/17/27/vorwerk-5598909_1280.jpg",
+    "description": "Color miel y negro, originaria de Alemania."
+  },
+  {
+    "name": "Conejo Argente Brun",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/03/03/15/42/brown-rabbit-7045201_1280.jpg",
+    "description": "Pelaje chocolate con brillo plateado, dócil y elegante."
+  },
+  {
+    "name": "Conejo Blanc de Bouscat",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/03/25/07/19/white-rabbit-4965679_1280.jpg",
+    "description": "Grande, completamente blanco y tranquilo."
+  },
+  {
+    "name": "Conejo Blue of Sint-Niklaas",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/03/28/17/20/rabbit-6132382_1280.jpg",
+    "description": "Azulado, belga, criado por su pelaje fino."
+  },
+  {
+    "name": "Conejo Castor Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284306_1280.jpg",
+    "description": "Pelaje aterciopelado y color castaño oscuro."
+  },
+  {
+    "name": "Conejo English Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/10/31/12/10/rabbit-2904447_1280.jpg",
+    "description": "Orejas extremadamente largas, de carácter tranquilo."
+  },
+  {
+    "name": "Conejo Blanc de Termonde",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/07/27/17/23/white-rabbit-2546932_1280.jpg",
+    "description": "Albino, grande, criado para carne."
+  },
+  {
+    "name": "Conejo Lilac",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/12/16/16/19/rabbit-5835712_1280.jpg",
+    "description": "Pequeño y con pelaje gris lavanda."
+  },
+  {
+    "name": "Conejo Meissner Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/07/24/19/58/rabbit-5436631_1280.jpg",
+    "description": "De orejas caídas, tipo alemán y calmado."
+  },
+  {
+    "name": "Conejo Sable",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284310_1280.jpg",
+    "description": "Color oscuro con sombras, suave y cariñoso."
+  },
+  {
+    "name": "Conejo Orange Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/03/01/11/00/rex-rabbit-7039895_1280.jpg",
+    "description": "Naranja brillante con pelaje lujoso."
+  },
+  {
+    "name": "Conejo Blanc de Popielno",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/06/24/06/20/rabbit-5335631_1280.jpg",
+    "description": "Originario de Polonia, blanco puro y robusto."
+  },
+  {
+    "name": "Conejo Checkered Giant",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/12/28/12/28/checkered-giant-6900564_1280.jpg",
+    "description": "Enorme, con manchas negras sobre blanco."
+  },
+  {
+    "name": "Conejo Mini Satin",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/02/16/15/08/satin-rabbit-6022672_1280.jpg",
+    "description": "Brillante, pequeño y encantador."
+  },
+  {
+    "name": "Conejo Tan Azul",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2020/10/21/05/35/rabbit-5673336_1280.jpg",
+    "description": "Color azul oscuro con marcas bronceadas."
+  },
+  {
+    "name": "Conejo Silver Marten",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/03/27/07/47/rabbit-7093373_1280.jpg",
+    "description": "Color oscuro con vientre plateado."
+  },
+  {
+    "name": "Conejo Thuringer",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2019/07/01/14/56/rabbit-4310834_1280.jpg",
+    "description": "Raza alemana de tonos dorado-grisáceos."
+  },
+  {
+    "name": "Conejo Velveteen Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/09/25/13/12/lop-2787354_1280.jpg",
+    "description": "Cruce de rex y lop, suave como terciopelo."
+  },
+  {
+    "name": "Conejo Rhinelander",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/08/10/00/29/rabbit-2619113_1280.jpg",
+    "description": "Con manchas en marcos negros y naranja."
+  },
+  {
+    "name": "Conejo Cinnamon",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2018/07/27/14/54/rabbit-3563175_1280.jpg",
+    "description": "Color canela, buen temperamento y tamaño medio."
+  },
+  {
+    "name": "Conejo Silver",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/04/04/08/14/rabbit-6150882_1280.jpg",
+    "description": "Una de las razas más antiguas, con pelaje brillante."
+  },
+  {
+    "name": "Conejo American Fuzzy Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/07/14/13/32/fuzzy-lop-6465444_1280.jpg",
+    "description": "Compacto, orejas caídas y lana como angora."
+  },
+  {
+    "name": "Conejo Altex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2022/10/05/15/34/rabbit-7501363_1280.jpg",
+    "description": "Criado para producción de carne, grande y ágil."
+  },
+  {
+    "name": "Conejo Hungarian Giant",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/04/07/23/33/rabbit-1317827_1280.jpg",
+    "description": "Muy grande, musculoso y criado en Europa Central."
+  },
+  {
+    "name": "Conejo Japanese White",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2021/10/13/15/41/rabbit-6703062_1280.jpg",
+    "description": "Criado en Japón, blanco puro y compacto."
+  },
+  {
+    "name": "Conejo Beige",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/03/27/17/40/rabbit-1284305_1280.jpg",
+    "description": "Color beige pálido, suave y sereno."
+  },
+  {
+    "name": "Basenji",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/basenji-4822712_1280.jpg",
+    "description": "Perro africano conocido por no ladrar y su naturaleza independiente."
+  },
+  {
+    "name": "Komondor",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/komondor-2838902_1280.jpg",
+    "description": "Perro húngaro de gran tamaño con pelaje en forma de cordones."
+  },
+  {
+    "name": "Xoloitzcuintle",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/mexican-hairless-dog-3310865_1280.jpg",
+    "description": "Perro sin pelo originario de México, venerado por los aztecas."
+  },
+  {
+    "name": "Azawakh",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/azawakh-4728112_1280.jpg",
+    "description": "Galgo africano esbelto y elegante, utilizado para la caza."
+  },
+  {
+    "name": "Perro cantor de Nueva Guinea",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/new-guinea-singing-dog-5290566_1280.jpg",
+    "description": "Raza rara conocida por sus vocalizaciones únicas y melódicas."
+  },
+  {
+    "name": "Catalburun",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/catalburun-4728112_1280.jpg",
+    "description": "Perro turco con nariz partida, excelente para la caza."
+  },
+  {
+    "name": "Dandie Dinmont Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/dandie-dinmont-terrier-2838902_1280.jpg",
+    "description": "Pequeño terrier escocés con cabeza cubierta de pelo blanco sedoso."
+  },
+  {
+    "name": "Mudi",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/mudi-3310865_1280.jpg",
+    "description": "Perro pastor húngaro versátil y enérgico, excelente para el trabajo."
+  },
+  {
+    "name": "Perro lobo checoslovaco",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/czechoslovakian-wolfdog-4822712_1280.jpg",
+    "description": "Híbrido entre lobo y pastor alemán, inteligente y activo."
+  },
+  {
+    "name": "Perro de agua español",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/spanish-water-dog-2838902_1280.jpg",
+    "description": "Perro rizado y trabajador, utilizado en pastoreo y pesca."
+  },
+  {
+    "name": "Perro de montaña de los Pirineos",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/great-pyrenees-3310865_1280.jpg",
+    "description": "Gran perro blanco, protector de rebaños en regiones montañosas."
+  },
+  {
+    "name": "Perro de Carolina",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/carolina-dog-5290566_1280.jpg",
+    "description": "Perro salvaje americano, parecido a los perros primitivos."
+  },
+  {
+    "name": "Perro de Canaán",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/canaan-dog-4728112_1280.jpg",
+    "description": "Raza israelí antigua, vigilante y leal."
+  },
+  {
+    "name": "Perro de osos de Carelia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/karelian-bear-dog-2838902_1280.jpg",
+    "description": "Perro finlandés valiente, utilizado para la caza de osos."
+  },
+  {
+    "name": "Perro de Groenlandia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/greenland-dog-3310865_1280.jpg",
+    "description": "Perro de trineo resistente, originario de Groenlandia."
+  },
+  {
+    "name": "Perro de agua portugués",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/portuguese-water-dog-4822712_1280.jpg",
+    "description": "Perro nadador y trabajador, utilizado en la pesca."
+  },
+  {
+    "name": "Perro de montaña de Entlebuch",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/entlebucher-mountain-dog-4728112_1280.jpg",
+    "description": "Pequeño perro suizo, ágil y trabajador en el pastoreo."
+  },
+  {
+    "name": "Perro pastor de Anatolia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/anatolian-shepherd-dog-2838902_1280.jpg",
+    "description": "Gran perro turco, protector de rebaños y valiente."
+  },
+  {
+    "name": "Perro pastor de Maremma",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/maremma-sheepdog-3310865_1280.jpg",
+    "description": "Perro italiano blanco, guardián de ovejas y ganado."
+  },
+  {
+    "name": "Perro pastor de los Pirineos",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/pyrenean-shepherd-5290566_1280.jpg",
+    "description": "Pequeño pero enérgico, excelente para el pastoreo en montañas."
+  },
+  {
+    "name": "Perro pastor islandés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/icelandic-sheepdog-4728112_1280.jpg",
+    "description": "Raza amigable y alerta, utilizada en el pastoreo en Islandia."
+  },
+  {
+    "name": "Perro pastor de Shetland",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/shetland-sheepdog-2838902_1280.jpg",
+    "description": "Pequeño collie escocés, inteligente y fácil de entrenar."
+  },
+  {
+    "name": "Perro pastor de Bohemia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/bohemian-shepherd-3310865_1280.jpg",
+    "description": "Raza checa leal y versátil, excelente para la familia."
+  },
+  {
+    "name": "Perro pastor de Picardía",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/picardy-sheepdog-4822712_1280.jpg",
+    "description": "Perro francés de aspecto rústico y carácter amigable."
+  },
+  {
+    "name": "Perro pastor de Asia Central",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/central-asian-shepherd-dog-4728112_1280.jpg",
+    "description": "Gran perro guardián, valiente y protector de rebaños."
+  },
+  {
+    "name": "Conejo Holandés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139294_1280.jpg",
+    "description": "Raza pequeña y amigable, conocida por su distintivo patrón de color blanco y negro."
+  },
+  {
+    "name": "Conejo Mini Lop",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867534_1280.jpg",
+    "description": "Conejo de orejas caídas y tamaño compacto, popular por su naturaleza dócil."
+  },
+  {
+    "name": "Conejo Angora Inglés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139295_1280.jpg",
+    "description": "Raza de pelaje largo y sedoso, requiere cepillado regular para evitar enredos."
+  },
+  {
+    "name": "Conejo Gigante de Flandes",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867535_1280.jpg",
+    "description": "Una de las razas más grandes, conocida por su tamaño imponente y temperamento tranquilo."
+  },
+  {
+    "name": "Conejo Californiano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139296_1280.jpg",
+    "description": "Raza de pelaje blanco con marcas oscuras en nariz, orejas, patas y cola."
+  },
+  {
+    "name": "Conejo Neozelandés Blanco",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867536_1280.jpg",
+    "description": "Conejo grande y robusto, comúnmente utilizado en la industria cárnica y como mascota."
+  },
+  {
+    "name": "Conejo Chinchilla",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139297_1280.jpg",
+    "description": "Raza con pelaje suave y denso, de color gris plateado, similar al de la chinchilla."
+  },
+  {
+    "name": "Conejo Arlequín",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867537_1280.jpg",
+    "description": "Conocido por su patrón de color único y llamativo, con bandas alternas de color."
+  },
+  {
+    "name": "Conejo Tan",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139298_1280.jpg",
+    "description": "Raza activa y enérgica, con pelaje negro y marcas de color canela en el cuerpo."
+  },
+  {
+    "name": "Conejo Plata",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867538_1280.jpg",
+    "description": "Raza antigua con pelaje plateado y brillante, de tamaño pequeño a mediano."
+  },
+  {
+    "name": "Conejo Havana",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139299_1280.jpg",
+    "description": "Raza de pelaje suave y brillante, generalmente de color marrón chocolate."
+  },
+  {
+    "name": "Conejo Satinado",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867539_1280.jpg",
+    "description": "Conocido por su pelaje brillante y sedoso, disponible en una variedad de colores."
+  },
+  {
+    "name": "Conejo Belier Francés",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139300_1280.jpg",
+    "description": "Raza grande con orejas caídas, conocida por su naturaleza tranquila y amigable."
+  },
+  {
+    "name": "Conejo Holandés Enano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867540_1280.jpg",
+    "description": "Pequeña y popular raza de conejo, conocida por su tamaño compacto y personalidad vivaz."
+  },
+  {
+    "name": "Conejo Gigante Continental",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139301_1280.jpg",
+    "description": "Una de las razas más grandes, conocida por su tamaño imponente y temperamento tranquilo."
+  },
+  {
+    "name": "Conejo Jersey Wooly",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867541_1280.jpg",
+    "description": "Raza enana con pelaje largo y suave, ideal para quienes buscan una mascota cariñosa."
+  },
+  {
+    "name": "Conejo Lionhead",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139302_1280.jpg",
+    "description": "Raza pequeña con una melena distintiva alrededor de la cabeza, similar a la de un león."
+  },
+  {
+    "name": "Conejo Mini Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867542_1280.jpg",
+    "description": "Raza pequeña con pelaje aterciopelado y suave, disponible en una variedad de colores."
+  },
+  {
+    "name": "Conejo Americano",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139303_1280.jpg",
+    "description": "Raza de tamaño mediano a grande, conocida por su pelaje denso y personalidad tranquila."
+  },
+  {
+    "name": "Conejo Blanco de Florida",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867543_1280.jpg",
+    "description": "Raza pequeña y compacta, con pelaje blanco y ojos rosados, ideal como mascota."
+  },
+  {
+    "name": "Conejo Gigante Blanco",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139304_1280.jpg",
+    "description": "Raza grande con pelaje blanco puro, conocida por su tamaño y docilidad."
+  },
+  {
+    "name": "Conejo Palomino",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867544_1280.jpg",
+    "description": "Raza de tamaño mediano con pelaje dorado, conocida por su naturaleza amigable."
+  },
+  {
+    "name": "Conejo Crème d'Argent",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139305_1280.jpg",
+    "description": "Raza francesa con pelaje color crema y ojos oscuros, de tamaño mediano."
+  },
+  {
+    "name": "Conejo Liebre Belga",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867545_1280.jpg",
+    "description": "Raza con apariencia similar a una liebre, conocida por su cuerpo largo y delgado."
+  },
+  {
+    "name": "Conejo Plata de Champagne",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139306_1280.jpg",
+    "description": "Raza francesa con pelaje plateado y brillante, de tamaño mediano y temperamento tranquilo."
+  },
+  {
+    "name": "Conejo Blanco de Hotot",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/rabbit-2139292_1280.jpg",
+    "description": "Raza francesa reconocida por su pelaje blanco y anillos negros alrededor de los ojos."
+  },
+  {
+    "name": "Conejo Rex",
+    "type": "Conejo",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/rabbit-1867533_1280.jpg",
+    "description": "Raza con pelaje aterciopelado, suave al tacto y variedad de colores."
+  },
+  {
+    "name": "Gallina Babcock",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139279_1280.jpg",
+    "description": "Raza productora de huevos de gran tamaño, conocida por su naturaleza tranquila y resistencia."
+  },
+  {
+    "name": "Gallina Hy-Line",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867521_1280.jpg",
+    "description": "Raza híbrida de alta producción de huevos, ampliamente utilizada en la industria avícola."
+  },
+  {
+    "name": "Gallina Hisex",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139280_1280.jpg",
+    "description": "Raza híbrida eficiente en la producción de huevos, conocida por su adaptabilidad."
+  },
+  {
+    "name": "Gallina Dekalb",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867522_1280.jpg",
+    "description": "Raza híbrida con alta tasa de puesta y buena conversión alimenticia."
+  },
+  {
+    "name": "Gallina Ross",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139281_1280.jpg",
+    "description": "Raza de engorde rápido, comúnmente utilizada para la producción de carne."
+  },
+  {
+    "name": "Gallina Cobb",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867523_1280.jpg",
+    "description": "Raza de crecimiento rápido, ideal para la producción de carne en sistemas intensivos."
+  },
+  {
+    "name": "Gallina Hubbard",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139282_1280.jpg",
+    "description": "Raza de doble propósito, adecuada tanto para carne como para huevos."
+  },
+  {
+    "name": "Gallina Arbor Acres",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867524_1280.jpg",
+    "description": "Raza de engorde con excelente eficiencia alimenticia y rápido crecimiento."
+  },
+  {
+    "name": "Gallina Castellana Negra",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139283_1280.jpg",
+    "description": "Raza española antigua, conocida por su rusticidad y buena producción de huevos."
+  },
+  {
+    "name": "Gallina Andaluza Azul",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867525_1280.jpg",
+    "description": "Raza española con plumaje azul, apreciada por su belleza y producción de huevos."
+  },
+  {
+    "name": "Gallina Pita Pinta Asturiana",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139284_1280.jpg",
+    "description": "Raza autóctona de Asturias, reconocida por su plumaje moteado y buena producción."
+  },
+  {
+    "name": "Gallina Marans",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867526_1280.jpg",
+    "description": "Raza francesa famosa por sus huevos de cáscara marrón oscuro."
+  },
+  {
+    "name": "Gallina Brahma",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139285_1280.jpg",
+    "description": "Raza grande y dócil, utilizada tanto para carne como para huevos."
+  },
+  {
+    "name": "Gallina Cochin",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867527_1280.jpg",
+    "description": "Raza ornamental con plumaje abundante, también buena ponedora."
+  },
+  {
+    "name": "Gallina Faverolles",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139286_1280.jpg",
+    "description": "Raza francesa con barba y plumas en las patas, amigable y buena ponedora."
+  },
+  {
+    "name": "Gallina Houdan",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867528_1280.jpg",
+    "description": "Raza ornamental francesa con cresta en forma de mariposa y cinco dedos."
+  },
+  {
+    "name": "Gallina La Flèche",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139287_1280.jpg",
+    "description": "Raza francesa con cresta en forma de V, conocida por su carne de calidad."
+  },
+  {
+    "name": "Gallina Crèvecoeur",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867529_1280.jpg",
+    "description": "Raza ornamental francesa con plumaje negro y cresta en forma de V."
+  },
+  {
+    "name": "Gallina Campine",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139288_1280.jpg",
+    "description": "Raza belga con plumaje barrado, buena ponedora y activa."
+  },
+  {
+    "name": "Gallina Brakel",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867530_1280.jpg",
+    "description": "Raza belga antigua, conocida por su producción de huevos y resistencia."
+  },
+  {
+    "name": "Gallina Lakenvelder",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139289_1280.jpg",
+    "description": "Raza alemana y holandesa con plumaje blanco y cuello y cola negros."
+  },
+  {
+    "name": "Gallina Minorca",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867531_1280.jpg",
+    "description": "Raza española de gran tamaño, excelente ponedora de huevos blancos."
+  },
+  {
+    "name": "Gallina Ancona",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139290_1280.jpg",
+    "description": "Raza italiana con plumaje moteado, activa y buena ponedora."
+  },
+  {
+    "name": "Gallina Campanera",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/04/17/chicken-1867532_1280.jpg",
+    "description": "Raza española tradicional, conocida por su rusticidad y buena producción."
+  },
+  {
+    "name": "Gallina Utrerana",
+    "type": "Gallina",
+    "image": "https://cdn.pixabay.com/photo/2017/03/10/12/38/chicken-2139291_1280.jpg",
+    "description": "Raza española originaria de Utrera, buena ponedora y resistente."
+  },
+  {
+    "name": "Basenji",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/basenji-4822712_1280.jpg",
+    "description": "Perro africano conocido por no ladrar y su naturaleza independiente."
+  },
+  {
+    "name": "Komondor",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/komondor-2838902_1280.jpg",
+    "description": "Perro húngaro de gran tamaño con pelaje en forma de cordones."
+  },
+  {
+    "name": "Xoloitzcuintle",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/mexican-hairless-dog-3310865_1280.jpg",
+    "description": "Perro sin pelo originario de México, venerado por los aztecas."
+  },
+  {
+    "name": "Azawakh",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/azawakh-4728112_1280.jpg",
+    "description": "Galgo africano esbelto y elegante, utilizado para la caza."
+  },
+  {
+    "name": "Perro cantor de Nueva Guinea",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/new-guinea-singing-dog-5290566_1280.jpg",
+    "description": "Raza rara conocida por sus vocalizaciones únicas y melódicas."
+  },
+  {
+    "name": "Catalburun",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/catalburun-4728112_1280.jpg",
+    "description": "Perro turco con nariz partida, excelente para la caza."
+  },
+  {
+    "name": "Dandie Dinmont Terrier",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/dandie-dinmont-terrier-2838902_1280.jpg",
+    "description": "Pequeño terrier escocés con cabeza cubierta de pelo blanco sedoso."
+  },
+  {
+    "name": "Mudi",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/mudi-3310865_1280.jpg",
+    "description": "Perro pastor húngaro versátil y enérgico, excelente para el trabajo."
+  },
+  {
+    "name": "Perro lobo checoslovaco",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/czechoslovakian-wolfdog-4822712_1280.jpg",
+    "description": "Híbrido entre lobo y pastor alemán, inteligente y activo."
+  },
+  {
+    "name": "Perro de agua español",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/spanish-water-dog-2838902_1280.jpg",
+    "description": "Perro rizado y trabajador, utilizado en pastoreo y pesca."
+  },
+  {
+    "name": "Perro de montaña de los Pirineos",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/great-pyrenees-3310865_1280.jpg",
+    "description": "Gran perro blanco, protector de rebaños en regiones montañosas."
+  },
+  {
+    "name": "Perro de Carolina",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/carolina-dog-5290566_1280.jpg",
+    "description": "Perro salvaje americano, parecido a los perros primitivos."
+  },
+  {
+    "name": "Perro de Canaán",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/canaan-dog-4728112_1280.jpg",
+    "description": "Raza israelí antigua, vigilante y leal."
+  },
+  {
+    "name": "Perro de osos de Carelia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/karelian-bear-dog-2838902_1280.jpg",
+    "description": "Perro finlandés valiente, utilizado para la caza de osos."
+  },
+  {
+    "name": "Perro de Groenlandia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/greenland-dog-3310865_1280.jpg",
+    "description": "Perro de trineo resistente, originario de Groenlandia."
+  },
+  {
+    "name": "Perro de agua portugués",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/portuguese-water-dog-4822712_1280.jpg",
+    "description": "Perro nadador y trabajador, utilizado en la pesca."
+  },
+  {
+    "name": "Perro de montaña de Entlebuch",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/entlebucher-mountain-dog-4728112_1280.jpg",
+    "description": "Pequeño perro suizo, ágil y trabajador en el pastoreo."
+  },
+  {
+    "name": "Perro pastor de Anatolia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/anatolian-shepherd-dog-2838902_1280.jpg",
+    "description": "Gran perro turco, protector de rebaños y valiente."
+  },
+  {
+    "name": "Perro pastor de Maremma",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/maremma-sheepdog-3310865_1280.jpg",
+    "description": "Perro italiano blanco, guardián de ovejas y ganado."
+  },
+  {
+    "name": "Perro pastor de los Pirineos",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/06/12/17/04/pyrenean-shepherd-5290566_1280.jpg",
+    "description": "Pequeño pero enérgico, excelente para el pastoreo en montañas."
+  },
+  {
+    "name": "Perro pastor islandés",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/icelandic-sheepdog-4728112_1280.jpg",
+    "description": "Raza amigable y alerta, utilizada en el pastoreo en Islandia."
+  },
+  {
+    "name": "Perro pastor de Shetland",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2017/10/10/21/46/shetland-sheepdog-2838902_1280.jpg",
+    "description": "Pequeño collie escocés, inteligente y fácil de entrenar."
+  },
+  {
+    "name": "Perro pastor de Bohemia",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2018/04/11/19/18/bohemian-shepherd-3310865_1280.jpg",
+    "description": "Raza checa leal y versátil, excelente para la familia."
+  },
+  {
+    "name": "Perro pastor de Picardía",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2020/02/05/16/52/picardy-sheepdog-4822712_1280.jpg",
+    "description": "Perro francés de aspecto rústico y carácter amigable."
+  },
+  {
+    "name": "Perro pastor de Asia Central",
+    "type": "Perro",
+    "image": "https://cdn.pixabay.com/photo/2019/12/29/17/00/central-asian-shepherd-dog-4728112_1280.jpg",
+    "description": "Gran perro guardián, valiente y protector de rebaños."
+  }
+]
+

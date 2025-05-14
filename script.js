@@ -1,28 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   const navItems = document.querySelectorAll(".nav-item");
   const sections = document.querySelectorAll(".section");
   const tabs = document.querySelectorAll(".tab");
   const tabContents = document.querySelectorAll(".tab-content");
-  const searchToggle = document.getElementById('search-toggle');
-  const searchBarContainer = document.getElementById('search-bar-container');
-  const cancelSearch = document.getElementById('cancel-search'); 
-  const searchInput = document.getElementById("main-search");
+  const searchToggle = document.getElementById("search-toggle");
+  const searchBarContainer = document.getElementById("search-bar-container");
+  const cancelSearch = document.getElementById("cancel-search");
 
-  searchInput?.addEventListener("input", () => {
-    const value = searchInput.value.trim().toLowerCase();
-    console.log("Buscando:", value);
-    // Aquí podrías filtrar resultados si agregas una lista
-  });
+  const notifBtn = document.getElementById("open-notifications");
+  const profileBtn = document.getElementById("open-profile");
+  const notifModal = document.getElementById("notifications-modal");
+  const profileModal = document.getElementById("profile-modal");
+  const closeNotif = document.getElementById("close-notifications");
+  const closeProfile = document.getElementById("close-profile");
 
-
-  const notifBtn = document.getElementById('open-notifications');
-  const profileBtn = document.getElementById('open-profile');
-  const notifModal = document.getElementById('notifications-modal');
-  const profileModal = document.getElementById('profile-modal');
-  const closeNotif = document.getElementById('close-notifications');
-  const closeProfile = document.getElementById('close-profile');
-
-  const petsSection = document.getElementById('section-pets');
+  const petsSection = document.getElementById("section-pets");
   const animalView = document.getElementById("animal-view");
   const emptyIcon = document.getElementById("empty-icon");
 
@@ -33,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeAddPetModal = document.getElementById("close-add-modal");
 
   const backBtns = document.querySelectorAll('.back-btn');
-  const searchTabs = document.querySelectorAll('.search-tab');
 
   const editBtns = document.querySelectorAll(".edit-btn");
   const editModal = document.getElementById("edit-modal");
@@ -42,6 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalInput = document.getElementById("modal-input");
   const modalError = document.getElementById("modal-error");
   const saveModalBtn = document.getElementById("save-modal-btn");
+
+  const animalList = document.getElementById("animal-list");
+  const animalModal = document.getElementById("animal-modal");
+  const animalTitle = document.getElementById("animal-title");
+  const animalImage = document.getElementById("animal-image");
+  const animalDescription = document.getElementById("animal-description");
+  const closeAnimalModal = document.getElementById("close-animal-modal");
 
   let currentField = '';
 
@@ -55,6 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       sections.forEach(section => section.classList.add("hidden"));
       document.getElementById(sectionId).classList.remove("hidden");
+
+      if (sectionId === "section-search") {
+        fetch("data/animals.json")
+          .then(res => res.json())
+          .then(data => mostrarListaAnimales(data))
+          .catch(err => console.error("Error al cargar animales:", err));
+      }
     });
   });
 
@@ -107,13 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  searchTabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      searchTabs.forEach(t => t.classList.remove("active"));
-      tab.classList.add("active");
-    });
-  });
-
   openModalBtn?.addEventListener("click", () => {
     addModal?.classList.remove("hidden");
   });
@@ -162,5 +160,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById(currentField).textContent = value;
     editModal.classList.add("hidden");
+  });
+
+  // Mostrar lista de animales en Search
+  function mostrarListaAnimales(animales) {
+    animalList.innerHTML = '';
+    animales.forEach(animal => {
+      const card = document.createElement("div");
+      card.className = "animal-card";
+      card.innerHTML = `
+        <img src="${animal.image}" alt="${animal.name}">
+        <div class="animal-card-name">${animal.name}</div>
+      `;
+      card.addEventListener("click", () => {
+        animalTitle.textContent = animal.name;
+        animalImage.src = animal.image;
+        animalDescription.textContent = animal.description;
+        animalModal.classList.remove("hidden");
+      });
+      animalList.appendChild(card);
+    });
+  }
+
+  closeAnimalModal.addEventListener("click", () => {
+    animalModal.classList.add("hidden");
   });
 });
