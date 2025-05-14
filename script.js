@@ -75,8 +75,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  searchToggle?.addEventListener("click", () => {
-    searchBarContainer?.classList.toggle("show");
+ const searchToggle = document.getElementById("search-toggle");
+const searchBarContainer = document.getElementById("search-bar-container");
+const cancelSearch = document.getElementById("cancel-search");
+
+searchToggle?.addEventListener("click", () => {
+  searchBarContainer?.classList.toggle("show");
+});
+
+cancelSearch?.addEventListener("click", () => {
+  searchBarContainer?.classList.remove("show");
+});
+
   });
 
   cancelSearch?.addEventListener("click", () => {

@@ -9,7 +9,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
@@ -62,6 +61,12 @@
 <div class="search-header">
   <button id="search-toggle" class="search-btn">Buscar</button>
 </div>
+
+<div id="search-bar-container" class="search-bar hidden">
+  <input type="text" placeholder="Buscar..." />
+  <button id="cancel-search" class="cancel-btn">Cancelar</button>
+</div>
+
 
   <!-- Este contenedor es donde aparecerán las tarjetas -->
   <div id="animal-list" class="animal-list"></div>
