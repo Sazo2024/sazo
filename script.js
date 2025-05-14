@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById(sectionId).classList.remove("hidden");
 
       if (sectionId === "section-search") {
-        fetch("data/animals.json")
+        fetch("animals.json")
           .then(res => res.json())
           .then(data => mostrarListaAnimales(data))
           .catch(err => console.error("Error al cargar animales:", err));
