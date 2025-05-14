@@ -5,7 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const tabContents = document.querySelectorAll(".tab-content");
   const searchToggle = document.getElementById('search-toggle');
   const searchBarContainer = document.getElementById('search-bar-container');
-  const cancelSearch = document.getElementById('cancel-search');
+  const cancelSearch = document.getElementById('cancel-search'); 
+  const searchInput = document.getElementById("main-search");
+
+  searchInput?.addEventListener("input", () => {
+    const value = searchInput.value.trim().toLowerCase();
+    console.log("Buscando:", value);
+    // Aquí podrías filtrar resultados si agregas una lista
+  });
+
 
   const notifBtn = document.getElementById('open-notifications');
   const profileBtn = document.getElementById('open-profile');
